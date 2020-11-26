@@ -4,6 +4,7 @@
 #define TAILLEAJOUT 5;
 
 
+
 int InitTab(int* tab, int size) {
 	if ((tab == NULL) || (size < 0)) {
 		return(-1);
