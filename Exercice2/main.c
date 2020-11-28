@@ -25,7 +25,7 @@ int main() {
 	printf("\nLe nombre d'elements dans le tableau est : %d ", tab.eltsCount);
 	printf(" \nTaille : %d", tab.size);
 	displayElements(&tab, 1, tab.size); //on a ajouté les 4 valeurs et on affiche le tableau
-	deleteElements(&tab, 2, 7);   // on supprime les elements entre la 2eme et la 7eme valeur
+	deleteElements(&tab, 2, 4);   // on supprime les elements entre la 2eme et la 7eme valeur
 	printf("\nLe nombre d'elements dans le tableau est : %d ", tab.eltsCount);
 	printf(" \nTaille : %d", tab.size);
 	displayElements(&tab, 1, tab.size);// on affiche le tableau apres avoir supprime les elements
